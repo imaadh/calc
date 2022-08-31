@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    /* border:1px solid black; */
+}
+
+#container {
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+#calc {
+    display:flex;
+    width:400px;
+    height:500px;
+    flex-wrap: wrap;
+  
+}
+
+#display {
+    border:1px solid black;
+    text-align: center;
+    padding-top: 100px;
+    height: 100px;
+    width:400px;
+}
+
+#calc div {
+    border:1px solid black;
+    flex: 1 0 20%;
+    text-align: center;
+    padding-top:50px;
+}
