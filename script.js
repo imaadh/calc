@@ -73,13 +73,25 @@ calcfuncs.forEach((button) => {
 })
 
 const equals = document.querySelector(".equals");
+let result = "";
 
 equals.addEventListener(
     "click", function() {
-        let result = operate(operator,parseInt(numberFirst),parseInt(numberSecond));
-        display.textContent = result;
-        console.log(result);
-        numberFirst = result;
+            result = operate(operator,parseInt(numberFirst),parseInt(numberSecond));
+            display.textContent = result;
+            console.log(result);
+            numberFirst = result;
+            numberSecond = ""
+    }    
+)
+
+const clear = document.querySelector("#clear");
+
+clear.addEventListener(
+    "click", function() {
+        numberFirst = "";
         numberSecond = "";
+        operator = "";
+        display.textContent = "";
     }
 )
