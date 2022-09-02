@@ -40,3 +40,35 @@ div {
     text-align: center;
     padding-top:50px;
 }
+
+.number:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+.number:active {
+    background: rgb(225, 225, 225);
+}
+
+.calcfunc:hover {
+    background: rgb(184, 228, 255);
+}
+
+.calcfunc:active {
+    background: lightskyblue;
+}
+
+.equals:hover {
+    background-color: rgb(255, 209, 118);
+}
+
+.equals:active {
+    background-color: rgb(254, 197, 83);
+}
+
+#clear:hover {
+    background-color: rgb(255, 140, 140);
+}
+
+#clear:active {
+    background-color: rgb(255, 92, 92);
+}
